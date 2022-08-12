@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Salesforce Sans regular';
+  src: url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Regular.woff2") format("woff2"), url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Salesforce Sans italic';
+  src: url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Italic.woff2") format("woff2"), url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Salesforce Sans bold';
+  src: url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Bold.woff2") format("woff2"), url("https://developer.salesforce.com/files/sims/fonts/SalesforceSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap; }
+
+body {
+  font-family: 'Salesforce sans regular', sans-serif;
+  font-size: 20px;
+}
+#examname {
+  font-size: 24px;
+  font-family: 'Salesforce sans bold', sans-serif;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+}
+#scorenum {
+  font-size: 20px;
+  font-family: 'Salesforce sans regular', sans-serif;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+}
+#scoreper {
+  font-size: 20px;
+  font-family: 'Salesforce sans regular', sans-serif;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+}
+#timetaken {
+  font-size: 20px;
+  font-family: 'Salesforce sans italic', sans-serif;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+}
+#qnum {
+  font-size: 16px;
+  font-family: 'Salesforce sans bold', sans-serif;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+#question {
+  font-size: 16px;
+  font-family: 'Salesforce sans regular', sans-serif;
+  padding-bottom: 8px;
+}
+#option {
+  font-size: 14px;
+  font-family: 'Salesforce sans regular', sans-serif;
+  line-height: 1.2em;
+  padding-bottom: 2px;
+}
+#optionex {
+  font-size: 12px;
+  font-family: 'Salesforce sans regular', sans-serif;
+  line-height: 1.2em;
+  padding-bottom: 8px;
+}
+#correct {
+ background-color: green !important;
+ -webkit-print-color-adjust: exact;
+ color: white;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 3px;
+ padding-top: 3px;
+}
+#incorrect {
+ background-color: red !important;
+ -webkit-print-color-adjust: exact;
+ color: white;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 3px;
+ padding-top: 3px;
+}
+#wrongselect {
+ font-size: 14px;
+ background-color: red;
+ color: white;
+ padding-left: 5px;
+ padding-right: 5px;
+ line-height: 1.2em;
+}
+#revsection {
+  font-size: 14px;
+  font-family: 'Salesforce sans italic', sans-serif;
+}
